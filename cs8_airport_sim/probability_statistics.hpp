@@ -2,8 +2,8 @@
 //  probility_statistics.hpp
 //  cs8_airport_sim
 //
-//  Created by Calvin Huang on 2/26/18.
-//  Copyright © 2018 Calvin Huang. All rights reserved.
+//  Pulled from Michael Main, Walter Savitch's
+//	Data Structures and Other Objects Using C++ (4th ed.)
 //
 
 #ifndef probility_statistics_hpp

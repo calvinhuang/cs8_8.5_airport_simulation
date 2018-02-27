@@ -3,15 +3,15 @@
 //  cs8_airport_sim
 //
 //  Created by Calvin Huang on 2/26/18.
-//  Copyright © 2018 Calvin Huang. All rights reserved.
 //
 
 #ifndef airport_hpp
 #define airport_hpp
 
 #include <iostream>
-#include <queue>
 #include <cassert>
+#include <queue>
+#include "queue.hpp"
 #include "probability_statistics.hpp"
 #include "runway.hpp"
 
@@ -49,10 +49,10 @@ public:
 	void print_summary();
 private:
 	// When each plane enters holding pattern
-	std::queue<unsigned int> arrival_times;
+	Queue<unsigned int> arrival_times;
 	unsigned int planes_in_hangar = 0;
 	// When each plane gets in line to takeoff
-	std::queue<unsigned int> takeoff_times;
+	Queue<unsigned int> takeoff_times;
 	bool_source arrival;
 	bool_source takeoff;
 	Runway main_runway;

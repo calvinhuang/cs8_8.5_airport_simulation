@@ -34,6 +34,7 @@
 		FF90A7472045096700AC2766 /* runway.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = runway.hpp; sourceTree = "<group>"; };
 		FF90A74820450FFA00AC2766 /* probability_statistics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = probability_statistics.cpp; sourceTree = "<group>"; };
 		FF90A74920450FFA00AC2766 /* probability_statistics.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = probability_statistics.hpp; sourceTree = "<group>"; };
+		FFC51D71204514060067DCBF /* queue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = queue.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +74,7 @@
 				FF90A7452045090400AC2766 /* airport.hpp */,
 				FF90A74820450FFA00AC2766 /* probability_statistics.cpp */,
 				FF90A74920450FFA00AC2766 /* probability_statistics.hpp */,
+				FFC51D71204514060067DCBF /* queue.hpp */,
 			);
 			path = cs8_airport_sim;
 			sourceTree = "<group>";

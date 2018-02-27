@@ -3,7 +3,6 @@
 //  cs8_airport_sim
 //
 //  Created by Calvin Huang on 2/26/18.
-//  Copyright © 2018 Calvin Huang. All rights reserved.
 //
 
 #include "airport.hpp"
