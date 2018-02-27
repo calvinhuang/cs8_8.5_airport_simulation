@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		FF90A7382044912700AC2766 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF90A7372044912700AC2766 /* main.cpp */; };
-		FF90A7402044935900AC2766 /* washing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF90A73F2044935900AC2766 /* washing.cpp */; };
+		FF90A7432045074400AC2766 /* runway.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF90A7422045074400AC2766 /* runway.cpp */; };
+		FF90A7462045090400AC2766 /* airport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF90A7442045090400AC2766 /* airport.cpp */; };
+		FF90A74A20450FFA00AC2766 /* probability_statistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF90A74820450FFA00AC2766 /* probability_statistics.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +28,12 @@
 /* Begin PBXFileReference section */
 		FF90A7342044912700AC2766 /* cs8_airport_sim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cs8_airport_sim; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF90A7372044912700AC2766 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		FF90A73E204492B400AC2766 /* washing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = washing.h; sourceTree = "<group>"; };
-		FF90A73F2044935900AC2766 /* washing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = washing.cpp; sourceTree = "<group>"; };
+		FF90A7422045074400AC2766 /* runway.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = runway.cpp; sourceTree = "<group>"; };
+		FF90A7442045090400AC2766 /* airport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = airport.cpp; sourceTree = "<group>"; };
+		FF90A7452045090400AC2766 /* airport.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = airport.hpp; sourceTree = "<group>"; };
+		FF90A7472045096700AC2766 /* runway.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = runway.hpp; sourceTree = "<group>"; };
+		FF90A74820450FFA00AC2766 /* probability_statistics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = probability_statistics.cpp; sourceTree = "<group>"; };
+		FF90A74920450FFA00AC2766 /* probability_statistics.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = probability_statistics.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +66,13 @@
 		FF90A7362044912700AC2766 /* cs8_airport_sim */ = {
 			isa = PBXGroup;
 			children = (
+				FF90A7472045096700AC2766 /* runway.hpp */,
 				FF90A7372044912700AC2766 /* main.cpp */,
-				FF90A73E204492B400AC2766 /* washing.h */,
-				FF90A73F2044935900AC2766 /* washing.cpp */,
+				FF90A7422045074400AC2766 /* runway.cpp */,
+				FF90A7442045090400AC2766 /* airport.cpp */,
+				FF90A7452045090400AC2766 /* airport.hpp */,
+				FF90A74820450FFA00AC2766 /* probability_statistics.cpp */,
+				FF90A74920450FFA00AC2766 /* probability_statistics.hpp */,
 			);
 			path = cs8_airport_sim;
 			sourceTree = "<group>";
@@ -125,8 +135,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF90A7432045074400AC2766 /* runway.cpp in Sources */,
+				FF90A74A20450FFA00AC2766 /* probability_statistics.cpp in Sources */,
+				FF90A7462045090400AC2766 /* airport.cpp in Sources */,
 				FF90A7382044912700AC2766 /* main.cpp in Sources */,
-				FF90A7402044935900AC2766 /* washing.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +267,7 @@
 				FF90A73D2044912700AC2766 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
